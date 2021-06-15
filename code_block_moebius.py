@@ -22,7 +22,7 @@ u_R_=0.4
 
 # symbols
 x,y,z,=symbols('x,y,z', real=True)
-R1, R2, b=symbols('R1, R2, b')
+R1, R2, b=symbols('R1, R2, b', real=True)
 R, a, x1,x2 =symbols('R, a, x1,x2', real=True)
 u_R, xi, eta =symbols('u_R, xi, eta', real=True)
 
