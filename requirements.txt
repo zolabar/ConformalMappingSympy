@@ -1,0 +1,7 @@
+#
+##### ConformalMappingSympy requirements file 
+#
+##### requirements without version specifiers
+sympy
+numpy
+matplotlib
