@@ -15,3 +15,13 @@ Please refer to "Lauer-Baré Z.and Gaertig E., Conformal Mappings with Sympy: To
 ## Transformation of eccentric annulus to rectangle
 
 ```code_block_bipolar.py``` and ```bipolar.ipynb``` with a conformal mapping related to bipolar coordinates.
+
+### Postprocessing
+
+The postprocessing is shown in the file ```moebius.ipynb``` , due to LaTEX rendering of web browser based *jupyter notebook*.
+
+Flow force calculation with ```diff``` and Taylor expansion of force in the gap 
+
+<img src="https://render.githubusercontent.com/render/math?math=\delta">
+
+with ```series```.
