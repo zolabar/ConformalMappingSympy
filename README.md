@@ -4,7 +4,11 @@ This repository hosts code that illustrates the content of the presentation and 
 
 Python scripts and jupyter notebooks are provided.
 
-Please refer to "Lauer-Baré Z.and Gaertig E., Conformal Mappings with Sympy: Towards Python-driven Analytical Modeling in Physics,PROC. OF THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021)", when using formulae or code from this repository.
+Please refer to 
+
+Lauer-Baré Z.and Gaertig E., *Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*, PROC. OF THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021)
+
+when using formulae or code from this repository.
 
 ## Transformation of eccentric annulus to concentric annulus
 
@@ -14,9 +18,11 @@ Please refer to "Lauer-Baré Z.and Gaertig E., Conformal Mappings with Sympy: To
 
 ## Transformation of eccentric annulus to rectangle
 
-```code_block_bipolar.py``` and ```bipolar.ipynb``` with a conformal mapping related to bipolar coordinates.
+```code_block_bipolar.py``` and ```bipolar.ipynb``` with a conformal mapping related to bipolar coordinates
 
-### Postprocessing
+<img src="https://render.githubusercontent.com/render/math?math=w(z)=2\cdot \tan^{-1}\left(\frac{z %2B i\gamma}{c}\right)">
+
+## Postprocessing
 
 The postprocessing is shown in the file ```moebius.ipynb``` , due to LaTEX rendering of web browser based *jupyter notebook*.
 
