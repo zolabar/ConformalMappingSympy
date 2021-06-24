@@ -1,6 +1,6 @@
 # ConformalMappingSympy 
 
-This repository hosts code that illustrates the content of the presentation and proceeding *Conformal Mappings with Sympy: Towards Python-driven Analytical Modeling in Physics* a collaborative work of Lauer-Baré Z. and Gaertig E. presented on THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021).
+This repository hosts code that illustrates the content of the presentation and proceeding *Conformal Mappings with Sympy: Towards Python-driven Analytical Modeling in Physics* a collaborative work of [Lauer-Baré Z.](https://orcid.org/0000-0002-7083-6909) and [Gaertig E.](https://orcid.org/0000-0003-1728-6466) presented on THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021).
 
 Python scripts and jupyter notebooks are provided.
 
