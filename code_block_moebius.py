@@ -8,6 +8,18 @@ import matplotlib.pylab as plt
 import seaborn as sns
 sns.set()
 
+"""Difference between symbols and expressions
+symbols:
+symbols in this code are SymPy symbols for algebraic or symbolic
+manipulation.
+expressions:
+Expressions are terms assigned to variable. For example, if R1 is symbol,
+R1_ denotes an expression, that may be numeric or not.
+Before numerifying SymPy objects, the symbols are substituted by
+corresponding expressions.    
+"""
+
+
 
 # Geometrical constants and prescribed velocity
 
