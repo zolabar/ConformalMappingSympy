@@ -8,6 +8,19 @@ import matplotlib.pylab as plt
 import seaborn as sns
 sns.set()
 
+"""Difference between symbols and expressions
+
+symbols:
+symbols in this code are SymPy symbols for algebraic or symbolic
+manipulation.
+
+expressions:
+Expressions are terms assigned to variable. For example, if R1 is symbol,
+R1_ denotes an expression, that may be numeric or not.
+Before numerifying SymPy objects, the symbols are substituted by
+corresponding expressions.    
+
+"""
 
 # Geometrical constants, pressure drop and prescribed velocity
 
@@ -62,8 +75,8 @@ summand = (sym.cos(n*xi)/(sym.sinh(n*(beta-alpha))))*summand
 Psi_ = sym.Sum((-1)**n*summand, (n, 1, m))
 
 
-yShift1 = (M_*sym.coth(alpha_.subs(M, M_))).subs(F, F_)
-yShift1 = float(yShift1.subs(R2, R2_).subs(R1, R1_).subs(b, abs(shift)))
+gamma_ = (M_*sym.coth(alpha_.subs(M, M_))).subs(F, F_)
+gamma_ = float(gamma_.subs(R2, R2_).subs(R1, R1_).subs(b, abs(shift)))
 
 
 
@@ -88,7 +101,7 @@ velW = u.subs(A, A_).subs(B, B_).subs(Psi, Psi_)
 velW = velW.subs(alpha, alpha_).subs(beta, beta_)
 velW = velW.subs(M, M_).subs(F, F_)
 velW = velW.subs(R2, R2_).subs(R1, R1_).subs(b, abs(shift))
-velW = velW.subs(gamma, yShift1).subs(u_R, u_R_).subs(mu, mu_)
+velW = velW.subs(gamma, gamma_).subs(u_R, u_R_).subs(mu, mu_)
 velW = velW.subs(l, l_).subs(dp, 10**5*dp_)
 
 uwNum = sym.lambdify((xi, eta), velW.subs(m, 100))
@@ -110,7 +123,7 @@ velZ = velZ.subs(eta, eta_).subs(xi, xi_)
 velZ = velZ.subs(alpha, alpha_).subs(beta, beta_)
 velZ = velZ.subs(M, M_).subs(F, F_)
 velZ = velZ.subs(R2, R2_).subs(R1, R1_).subs(b, abs(shift))
-velZ = velZ.subs(gamma, yShift1).subs(u_R, u_R_).subs(mu, mu_)
+velZ = velZ.subs(gamma, gamma_).subs(u_R, u_R_).subs(mu, mu_)
 velZ = velZ.subs(l, l_).subs(dp, 10**5*dp_)
 
 
@@ -123,7 +136,7 @@ X, Y = np.meshgrid(X, Y)
 zeta = X + 1j*Y
 x_y = cNum*np.tan(zeta/2)
 X = np.real(x_y)
-Y = np.imag(x_y)-yShift1
+Y = np.imag(x_y)-gamma_
 fig, ax = plt.subplots(figsize=(9, 9))
 plt.pcolor(X, Y, uzNum(X, Y), cmap='rainbow')
 
