@@ -23,7 +23,6 @@ corresponding expressions.
 """
 
 
-
 # Geometrical constants and prescribed velocity
 
 
@@ -86,7 +85,7 @@ R_ = R_.subs(b, b/R2)
 
 
 # Velocity in concentric annulus in w-plane
-uw = u_R*sym.log(sym.sqrt(xi**2+eta**2))/sym.log(R)
+uw = u_R*sym.ln(sym.sqrt(xi**2+eta**2))/sym.ln(R)
 uwNum = uw.subs(R, R_)
 uwNum = uwNum.subs(u_R, u_R_).subs(R1, R1_)
 uwNum = uwNum.subs(R2, R2_).subs(b, shift)

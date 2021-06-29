@@ -62,10 +62,10 @@ F_ = (R2**2-R1**2+b**2)/(2*b)
 M_ = sym.sqrt(F**2-R2**2)
 
 
-alpha_ = 0.5*sym.log((F+M)/(F-M))
+alpha_ = 0.5*sym.ln((F+M)/(F-M))
 
 
-beta_ = 0.5*sym.log((F-b+M)/(F-b-M))
+beta_ = 0.5*sym.ln((F-b+M)/(F-b-M))
 
 
 
@@ -82,7 +82,7 @@ gamma_ = float(gamma_.subs(R2, R2_).subs(R1, R1_).subs(b, abs(shift)))
 
 eta_ = (M**2 - 2*M*(y+gamma) + x**2 + (y+gamma)**2)
 eta_ = (M**2 + 2*M*(y+gamma) + x**2 + (y+gamma)**2)/eta_
-eta_ = sym.log(eta_)/2
+eta_ = sym.ln(eta_)/2
 
 
 xi_ = -sym.atan2(2*M*x, (M**2 - x**2 - (y+gamma)**2))
