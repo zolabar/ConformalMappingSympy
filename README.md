@@ -6,7 +6,7 @@ Python scripts and jupyter notebooks are provided.
 
 Please refer to 
 
-Lauer-Baré Z.and Gaertig E., *Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*, PROC. OF THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021)
+Lauer-Baré Z. and Gaertig E., *Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*, PROC. OF THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021)
 
 when using formulae or code from this repository.
 
@@ -38,6 +38,6 @@ with ```series```.
 
 [BC09] [Brown JW, Churchill RV. Complex variables and applications eighth edition, McGraw-Hill Book Company; 2009](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html)
 
-[LGK21] [Lauer-Baré Z., Gaertig E., Krebs J., Arndt C., Sleziona A., Gensel A. A note on leakage jet forces: Application in the modelling of digital twins of hydraulic valves, International Journal of Fluid Power, 2021, Vol. 22 (1), 113–146](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535)
+[LGK21] [Lauer-Baré Z., Gaertig E., Krebs J., Arndt C., Sleziona C., Gensel A. A note on leakage jet forces: Application in the modelling of digital twins of hydraulic valves, International Journal of Fluid Power, 2021, Vol. 22 (1), 113–146](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535)
 
-[PHW33] [N.A.V. Piercy D.Sc., M.S. Hooper & H.F. Winny Ph.D. LIII. Viscous flow through pipes with cores, The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 1933](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212)
+[PHW33] [Piercy NAV, Hooper MS, & Winny HF. LIII. Viscous flow through pipes with cores, The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 1933](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212)
