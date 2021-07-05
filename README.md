@@ -1,6 +1,6 @@
 # ConformalMappingSymPy 
 
-This repository hosts code that illustrates the content of the presentation and proceeding *Conformal Mappings with Sympy: Towards Python-driven Analytical Modeling in Physics* a collaborative work of [Lauer-Baré Z.](https://orcid.org/0000-0002-7083-6909) and [Gaertig E.](https://orcid.org/0000-0003-1728-6466) presented on THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021).
+This repository hosts code that illustrates the content of the presentation and proceeding *Conformal Mappings with Sympy: Towards Python-driven Analytical Modeling in Physics* a collaborative work of [Z. Lauer-Baré](https://orcid.org/0000-0002-7083-6909) and [E. Gaertig](https://orcid.org/0000-0003-1728-6466) presented on THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021).
 
 Python scripts and jupyter notebooks are provided.
 
@@ -36,8 +36,8 @@ with ```series```.
 
 ## Literature
 
-[BC09] [Brown JW, Churchill RV. Complex variables and applications eighth edition, McGraw-Hill Book Company; 2009](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html)
+[BC09] [Brown JW, Churchill RV. Complex variables and applications, Eighth edition, McGraw-Hill Book Company; 2009](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html)
 
-[LGK21] [Lauer-Baré Z., Gaertig E., Krebs J., Arndt C., Sleziona C., Gensel A. A note on leakage jet forces: Application in the modelling of digital twins of hydraulic valves, International Journal of Fluid Power, 2021, Vol. 22 (1), 113–146](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535)
+[LGK21] [Lauer-Baré Z, Gaertig E, Krebs J, Arndt C, Sleziona C, Gensel A. A note on leakage jet forces: Application in the modelling of digital twins of hydraulic valves, International Journal of Fluid Power, 2021, Vol. 22 (1), 113–146](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535)
 
-[PHW33] [Piercy NAV, Hooper MS, & Winny HF. LIII. Viscous flow through pipes with cores, The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 1933](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212)
+[PHW33] [Piercy NAV, Hooper MS, Winny HF. LIII. Viscous flow through pipes with cores, The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 1933](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212)
