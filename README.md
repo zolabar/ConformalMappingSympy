@@ -6,7 +6,7 @@ Python scripts and jupyter notebooks are provided.
 
 Please refer to 
 
-Lauer-Baré Z. and Gaertig E., *Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*, PROC. OF THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021)
+Lauer-Baré Z. and Gaertig E., [*Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*, PROC. OF THE 20th PYTHON IN SCIENCE CONF. (SCIPY 2021)](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html)
 
 when using formulae or code from this repository.
 
