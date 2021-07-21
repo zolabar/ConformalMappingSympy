@@ -10,7 +10,9 @@ Lauer-Baré Z. and Gaertig E., [*Conformal Mappings with SymPy: Towards Python-d
 
 when using formulae or code from this repository.
 
-The theoretical methods used here are conformal mappings, inspired by [PHW33](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212) and [BC09](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html) and Taylor-expansions, following [LGK21](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535).
+The theoretical methods used here are conformal mappings, inspired by [PHW33](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212) and [BC09](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html) and Taylor-expansions, following [LGK21](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535). These methods are used to solve the Stokes problem in an eccentric annular domain for Couette-Poisseuille flow and to calculate the corresponding flow force in a postprocessing step, as well as analzing the limits for small gaps.
+
+Applications of conformal mappings with SymPy in the context of inviscid irrotational flow can be found on [Plotting streamlines with Matplotlib and SymPy](https://tonysyu.github.io/plotting-streamlines-with-matplotlib-and-sympy.html#.YPf_rKjwhPb)(T. S. Yu).
 
 ## Transformation of eccentric annulus to concentric annulus
 
