@@ -8,7 +8,7 @@ Please refer to
 
 Lauer-Baré Z. and Gaertig E., [*Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*. Lauer-Baré, Z. & Gaertig, E. In Agarwal, M., Calloway, C., Niederhut, D., & Shupe, D., editors, Proceedings of the 20th Python in Science Conference, pages 63 – 71, 2021. ](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html)
 
-when using formulae or code from this repository.
+when using formulae or code from this repository. The conference talk can be seen on the [youtube Enthought channel](https://www.youtube.com/watch?v=P5ybpjv2uDA).
 
 The theoretical methods used here are conformal mappings, inspired by [PHW33](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212) and [BC09](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html) and Taylor-expansions, following [LGK21](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535). These methods are used to solve the Stokes problem in an eccentric annular domain for Couette-Poisseuille flow and to calculate the corresponding flow force in a postprocessing step, as well as analzing the limits for small gaps. The context of this work is the modelling of viscous fluid power systems (see [LGK21](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535) for more details).
 
