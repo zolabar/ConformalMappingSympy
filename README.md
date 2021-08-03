@@ -15,6 +15,8 @@ The theoretical methods used here are conformal mappings, inspired by [PHW33](ht
 Applications of conformal mappings with SymPy in the context of inviscid irrotational flow can be found on [Plotting streamlines with Matplotlib and SymPy](https://tonysyu.github.io/plotting-streamlines-with-matplotlib-and-sympy.html#.YPf_rKjwhPb) (T. S. Yu).
 Further applications of conformal mappings with SymPy in the context of inviscid irrotational flow applied to naval engineering are described in [Ships Added Mass Effect on a Flexible Mooring Dolphin in Berthing Manoeuvre](https://www.mdpi.com/2077-1312/9/2/108) (A. GRM) with an open Python code repository in [naval Python and SymPy](https://zenodo.org/record/4452633#.YPpnYegzZPZ).
 
+Further, an interactive Python code for using conformal mappings, based on sympy, numpy and plotly can be found [here](https://github.com/im-AMS/Conformal-Maps).
+
 ## Transformation of eccentric annulus to concentric annulus
 
 ```code_block_moebius.py``` and ```moebius.ipynb``` with a Möbius transform of the type
