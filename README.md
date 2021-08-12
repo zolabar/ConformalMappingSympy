@@ -29,6 +29,10 @@ Further, an interactive Python code for using conformal mappings, based on sympy
 
 <img src="https://render.githubusercontent.com/render/math?math=w(z)=2\cdot \tan^{-1}\left(\frac{z %2B i\gamma}{c}\right)">
 
+The following gif file was created with an adapted version of the code from [the interactive Python code for conformal mappings mentioned above](https://github.com/im-AMS/Conformal-Maps), where the results from [LG21](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html) were implemented.
+
+![](mapping.gif)
+
 ## Postprocessing
 
 The postprocessing is shown in the file ```moebius.ipynb``` , due to LaTeX rendering of web browser based *jupyter notebook*.
@@ -46,5 +50,7 @@ with ```series```.
 [G21] [Grm, A. Ships Added Mass Effect on a Flexible Mooring Dolphin in Berthing Manoeuvre. J. Mar. Sci. Eng. 2021, 9, 108. https://doi.org/10.3390/jmse9020108](https://www.mdpi.com/2077-1312/9/2/108)
 
 [LGK21] [Lauer-Baré Z, Gaertig E, Krebs J, Arndt C, Sleziona C, Gensel A. A note on leakage jet forces: Application in the modelling of digital twins of hydraulic valves, International Journal of Fluid Power, 2021, Vol. 22 (1), 113–146](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535)
+
+[LG21] Lauer-Baré Z. and Gaertig E., [*Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*. Lauer-Baré, Z. & Gaertig, E. In Agarwal, M., Calloway, C., Niederhut, D., & Shupe, D., editors, Proceedings of the 20th Python in Science Conference, pages 85 - 93, 2021. ](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html)
 
 [PHW33] [Piercy NAV, Hooper MS, Winny HF. LIII. Viscous flow through pipes with cores, The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 1933](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212)
