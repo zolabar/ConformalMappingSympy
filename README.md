@@ -13,7 +13,7 @@ when using formulae or code from this repository. The conference talk can be see
 The theoretical methods used here are conformal mappings, inspired by [PHW33](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212) and [BC09](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html) and Taylor-expansions, following [LGK21](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535). These methods are used to solve the Stokes problem in an eccentric annular domain for Couette-Poisseuille flow and to calculate the corresponding flow force in a postprocessing step, as well as analzing the limits for small gaps. The context of this work is the modelling of viscous fluid power systems (see [LGK21](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535) for more details).
 
 Applications of conformal mappings with SymPy in the context of inviscid irrotational flow can be found on [Plotting streamlines with Matplotlib and SymPy](https://tonysyu.github.io/plotting-streamlines-with-matplotlib-and-sympy.html#.YPf_rKjwhPb) (T. S. Yu).
-Further applications of conformal mappings with SymPy in the context of inviscid irrotational flow applied to naval engineering are described in [Ships Added Mass Effect on a Flexible Mooring Dolphin in Berthing Manoeuvre](https://www.mdpi.com/2077-1312/9/2/108) (A. GRM) with an open Python code repository in [naval Python and SymPy](https://zenodo.org/record/4452633#.YPpnYegzZPZ).
+Further applications of conformal mappings with SymPy in the context of inviscid irrotational flow applied to naval engineering are described in [G21](https://www.mdpi.com/2077-1312/9/2/108) with an open Python code repository in [naval Python and SymPy](https://zenodo.org/record/4452633#.YPpnYegzZPZ).
 
 Further, an interactive Python code for using conformal mappings, based on sympy, numpy and plotly can be found [here](https://github.com/im-AMS/Conformal-Maps).
 
@@ -42,6 +42,8 @@ with ```series```.
 ## Literature
 
 [BC09] [Brown JW, Churchill RV. Complex variables and applications, Eighth edition, McGraw-Hill Book Company; 2009](https://www.mheducation.com/highered/product/complex-variables-applications-brown-churchill/M9780073383170.html)
+
+[G21] [Grm, A. Ships Added Mass Effect on a Flexible Mooring Dolphin in Berthing Manoeuvre. J. Mar. Sci. Eng. 2021, 9, 108. https://doi.org/10.3390/jmse9020108](https://www.mdpi.com/2077-1312/9/2/108)
 
 [LGK21] [Lauer-Baré Z, Gaertig E, Krebs J, Arndt C, Sleziona C, Gensel A. A note on leakage jet forces: Application in the modelling of digital twins of hydraulic valves, International Journal of Fluid Power, 2021, Vol. 22 (1), 113–146](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535)
 
