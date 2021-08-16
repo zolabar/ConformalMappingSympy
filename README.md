@@ -29,9 +29,9 @@ Further, an interactive Python code for using conformal mappings, based on sympy
 
 <img src="https://render.githubusercontent.com/render/math?math=w(z)=2\cdot \tan^{-1}\left(\frac{z %2B i\gamma}{c}\right)">
 
-The following gif file was created with an adapted version of the code from [the interactive Python code for conformal mappings mentioned above](https://github.com/im-AMS/Conformal-Maps), where the results from [LG21](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html) were implemented.
+The following animation was created with an adapted version of the code from [the interactive Python code for conformal mappings mentioned above](https://github.com/im-AMS/Conformal-Maps), where the results from [LG21](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html) were implemented.
 
-
+![](mapping_arctan_colored_boundary.gif)
 
 ## Postprocessing
 
