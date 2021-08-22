@@ -15,7 +15,7 @@ The theoretical methods used here are conformal mappings, inspired by [PHW33](ht
 Applications of conformal mappings with SymPy in the context of inviscid irrotational flow can be found on [Plotting streamlines with Matplotlib and SymPy](https://tonysyu.github.io/plotting-streamlines-with-matplotlib-and-sympy.html#.YPf_rKjwhPb) (T. S. Yu).
 Further applications of conformal mappings with SymPy in the context of inviscid irrotational flow applied to naval engineering are described in [G21](https://www.mdpi.com/2077-1312/9/2/108) with an open Python code repository in [naval Python and SymPy](https://zenodo.org/record/4452633#.YPpnYegzZPZ).
 
-Further, an interactive Python code for using conformal mappings, based on SymPy, NumPy and Plotly can be found [here](https://github.com/im-AMS/Conformal-Maps).
+Further, an interactive Python code for using conformal mappings, based on SymPy, NumPy and Plotly can be found [here](https://github.com/zolabar/Conformal-Maps).
 
 ## Transformation of eccentric annulus to concentric annulus
 
@@ -29,8 +29,9 @@ Further, an interactive Python code for using conformal mappings, based on SymPy
 
 <img src="https://render.githubusercontent.com/render/math?math=w(z)=2\cdot \tan^{-1}\left(\frac{z %2B i\gamma}{c}\right)">
 
-The following animation was created with an adapted version of the code from [the interactive Python code for conformal mappings mentioned above](https://github.com/im-AMS/Conformal-Maps), where the results from [LG21](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html) were implemented.
+The following animation was created with an adapted version of the code from [the interactive Python code for conformal mappings mentioned above](https://github.com/zolabar/Conformal-Maps), where the results from [LG21](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html) were implemented.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zolabar/Conformal-Maps/HEAD)
 ![](mapping_arctan_colored_boundary.gif)
 
 ## Postprocessing
