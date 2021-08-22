@@ -33,7 +33,7 @@ Further, an interactive Python code for using conformal mappings, based on SymPy
 The following animation was created with an adapted version of the code from [the interactive Python code for conformal mappings mentioned above](https://github.com/zolabar/Conformal-Maps), where the results from [LG21](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html) were implemented.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zolabar/Conformal-Maps/HEAD)
-![](mapping_arctan_colored_boundary.gif)
+![](Figures/mapping_arctan_colored_boundary.gif)
 
 ## Postprocessing
 
