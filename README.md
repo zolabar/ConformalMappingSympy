@@ -16,7 +16,7 @@ The theoretical methods used here are conformal mappings, inspired by [PHW33](ht
 Applications of conformal mappings with SymPy in the context of inviscid irrotational flow can be found on [Plotting streamlines with Matplotlib and SymPy](https://tonysyu.github.io/plotting-streamlines-with-matplotlib-and-sympy.html#.YPf_rKjwhPb) (T. S. Yu).
 Further applications of conformal mappings with SymPy in the context of inviscid irrotational flow applied to naval engineering are described in [G21](https://www.mdpi.com/2077-1312/9/2/108) with an open Python code repository in [naval Python and SymPy](https://zenodo.org/record/4452633#.YPpnYegzZPZ).
 
-Further, an interactive Python code for using conformal mappings, based on SymPy, NumPy and Plotly can be found [here](https://github.com/im-AMS/Conformal-Maps).
+Further, a Python package with cloud computing possibility via binder, for visualizing conformal mappings interactively, based on SymPy, NumPy and Plotly can be found at the page  [conformalMaps](https://github.com/im-AMS/Conformal-Maps).
 
 ## Transformation of eccentric annulus to concentric annulus
 
