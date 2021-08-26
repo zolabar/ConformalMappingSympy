@@ -24,6 +24,11 @@ Further, a Python package with cloud computing possibility via binder, for visua
 
 <img src="https://render.githubusercontent.com/render/math?math=w(z)=\frac{z %2B ia}{az %2B i}">
 
+The following animation was created with an adapted version of the code from [the interactive Python code for conformal mappings mentioned above](https://github.com/im-AMS/Conformal-Maps), where the results from [LG21](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html) were implemented.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zolabar/Conformal-Maps/HEAD)
+![](Figures/moebius.gif)
+
 ## Transformation of eccentric annulus to rectangle
 
 ```code_block_bipolar.py``` and ```bipolar.ipynb``` with a conformal mapping related to bipolar coordinates
