@@ -5,3 +5,4 @@ seaborn
 plotly
 voila
 jupyter
+ipywidgets
