@@ -6,3 +6,5 @@ sympy
 numpy
 matplotlib
 seaborn
+plotly
+voila
