@@ -1,1 +1,1 @@
-web: jupyterlab eccentric_annulus.ipynb
+web: voila --port=$PORT --no-browser --enable_nbextensions=True --theme=dark eccentric_annulus.ipynb
