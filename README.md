@@ -16,7 +16,7 @@ The theoretical methods used here are conformal mappings, inspired by [PHW33](ht
 Applications of conformal mappings with SymPy in the context of inviscid irrotational flow can be found on [Plotting streamlines with Matplotlib and SymPy](https://tonysyu.github.io/plotting-streamlines-with-matplotlib-and-sympy.html#.YPf_rKjwhPb) (T. S. Yu).
 Further applications of conformal mappings with SymPy in the context of inviscid irrotational flow applied to naval engineering are described in [G21](https://www.mdpi.com/2077-1312/9/2/108) with an open Python code repository in [naval Python and SymPy](https://zenodo.org/record/4452633#.YPpnYegzZPZ).
 
-Further, a Python package with cloud computing possibility via binder, for visualizing conformal mappings interactively, based on SymPy, NumPy and Plotly can be found at the page  [conformalMaps](https://github.com/im-AMS/Conformal-Maps).
+Further, a Python package with cloud computing possibility via binder, for visualizing conformal mappings interactively, based on SymPy, NumPy and Plotly can be found at the page  [conformalMaps](https://github.com/im-AMS/Conformal-Maps); see [LA21](https://doi.org/10.5281/zenodo.5717868).
 
 ## Transformation of eccentric annulus to concentric annulus
 
@@ -59,5 +59,7 @@ with ```series```.
 [LGK21] [Lauer-Baré Z., Gaertig E., Krebs J., Arndt C., Sleziona C., Gensel A., A note on leakage jet forces: Application in the modelling of digital twins of hydraulic valves, International Journal of Fluid Power, 2021, Vol. 22 (1), 113–146](https://journals.riverpublishers.com/index.php/IJFP/article/view/5535)
 
 [LG21] Lauer-Baré Z. and Gaertig E., [*Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling in Physics*. Lauer-Baré, Z. & Gaertig, E. In Agarwal, M., Calloway, C., Niederhut, D., & Shupe, D., editors, Proceedings of the 20th Python in Science Conference, pages 85 - 93, 2021. ](https://conference.scipy.org/proceedings/scipy2021/lauer_bare_gaertig.html)
+
+[LA21] Lauer-Baré Z. and Aditya, [*Conformal-Maps: Code for interactive conformal mapping with python and jupyter notebook* (v1.0.1). Zenodo. 2021 https://doi.org/10.5281/zenodo.5717868.](https://doi.org/10.5281/zenodo.5717868)
 
 [PHW33] [Piercy N.A.V., Hooper M.S., Winny H.F., LIII. Viscous flow through pipes with cores, The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 1933](https://www.tandfonline.com/doi/abs/10.1080/14786443309462212)
